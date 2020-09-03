@@ -16,8 +16,8 @@ static int borderpx = 2;
  *
  * Example array for numuserfeats = 3: {"ss02", "ss08", "onum"}
  */
-static size_t numuserfeats = 0;
-static char *userfeats[] = {};
+static size_t numuserfeats = 6;
+static char *userfeats[] = {"ss01", "ss02", "ss03", "ss05", "ss06", "ss08"};
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -115,7 +115,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* bg opacity */
 float alpha = 0.8;
@@ -163,7 +163,7 @@ unsigned int defaultrcs = 257;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
