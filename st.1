@@ -1,6 +1,6 @@
 .TH ST 1 st\-VERSION
 .SH NAME
-st \- simple terminal (Luke Smith (https://lukesmith.xyz)'s build)
+st \- simple terminal (wundrweapon's build)
 .SH SYNOPSIS
 .B st
 .RB [ \-aiv ]
@@ -125,39 +125,38 @@ and all the remaining arguments are used as a command
 even without it.
 .SH SHORTCUTS
 .TP
-.B Alt-j/k or Alt-Up/Down or Alt-Mouse Wheel
+.B Alt+K/J or Alt+Up/Down or Alt+MWheel
 Scroll up/down one line at a time.
 .TP
-.B Alt-u/d or Alt-Page Up/Page Down
+.B Alt+U/D or Alt+PageUp/PageDown
 Scroll up/down one screen at a time.
 .TP
-.B Alt-Shift-k/j or Alt-Shift-Page Up/Page Down or Alt-Shift-Mouse Wheel
+.B Alt+Shift+K/J or Alt+Shift+PageUp/PageDown or Alt+Shift+MWheel
 Increase or decrease font size.
 .TP
-.B Alt-Home
+.B Alt+Home
 Reset to default font size.
 .TP
-.B Shift-Insert or Alt-v
+.B Shift+Insert or Alt+V
 Paste from clipboard.
 .TP
-.B Alt-c
+.B Alt+C
 Copy to clipboard.
 .TP
-.B Alt-p
+.B Alt+P
 Paste/input primary selection.
 .TP
-.B Alt-l
+.B Alt+L
 Show dmenu menu of all URLs on screen and choose one to open.
 .TP
-.B Alt-y
+.B Alt+Y
 Show dmenu menu of all URLs on screen and choose one to copy.
 .TP
-.B Alt-o
-Show dmenu menu of all recently run commands and copy the output of the chosen command to the clipboard.
+.B Alt+O
+Show dmenu menu of all recently run commands and copy the output of the chosen command to the clipboard. Requires
 .I xclip
-required.
 .TP
-.B Alt-a/s
+.B Alt+A/S
 Increase or decrease opacity/alpha value (make window more or less transparent).
 .TP
 .B Break
@@ -165,11 +164,11 @@ Send a break in the serial line.
 Break key is obtained in PC keyboards
 pressing at the same time control and pause.
 .TP
-.B Ctrl-Print Screen
+.B Ctrl+Print Screen
 Toggle if st should print to the
 .I iofile.
 .TP
-.B Shift-Print Screen
+.B Shift+Print Screen
 Print the full screen to the
 .I iofile.
 .TP
@@ -177,7 +176,7 @@ Print the full screen to the
 Print the selection to the
 .I iofile.
 .TP
-.B Alt-Ctrl
+.B Alt+Ctrl
 Launch dmenu to enter a unicode codepoint and send the corresponding glyph
 to st.
 .SH CUSTOMIZATION
