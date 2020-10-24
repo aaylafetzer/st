@@ -46,6 +46,7 @@ You'll also need their base packages for execution:
 
 - `fontconfig` for the default build, for your system monospace font
 - `libX11` and `libXft` to have an actually functioning window
+- `freetype` v2.0+ because… I dunno, it's used in compiling
 - `harfbuzz` for ligatures
 
 I'm sure that list is incomplete, so please send an issue if you find any dependencies not listed!  
